@@ -30,7 +30,7 @@ const PetForm = (props) => {
 
   // And finally, the form itself.
   return (
-    <div>
+    <div className="form-container">
       <form onSubmit={handleSubmit}>
         <label htmlFor="name"> Name </label>
         <input
@@ -62,5 +62,6 @@ const PetForm = (props) => {
     </div>
   );
 };
+
 
 export default PetForm;
